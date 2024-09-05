@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","10989","AZ111 Login into Ecommerce website and Add product to cart","","Thu Sep 05 16:08:19 IST 2024","passed","Thu Sep 05 16:08:30 IST 2024","","End to End Ecommerce Automation Test","",""
+"","8726","TR123 Select country and complete purchase","","Thu Sep 05 16:08:25 IST 2024","passed","Thu Sep 05 16:08:34 IST 2024","","End to End Ecommerce Automation Test","",""
+"","10081","AZ111 Login into Ecommerce website and Add product to cart","","Thu Sep 05 16:08:14 IST 2024","passed","Thu Sep 05 16:08:24 IST 2024","","End to End Ecommerce Automation Test","",""
+"","6257","TR123 Select country and complete purchase","","Thu Sep 05 16:08:32 IST 2024","passed","Thu Sep 05 16:08:38 IST 2024","","End to End Ecommerce Automation Test","",""
+"","771","AZ222 Verify product present in the cart and goto checkout page","","Thu Sep 05 16:08:24 IST 2024","passed","Thu Sep 05 16:08:25 IST 2024","","End to End Ecommerce Automation Test","",""
+"","1048","AZ222 Verify product present in the cart and goto checkout page","","Thu Sep 05 16:08:31 IST 2024","passed","Thu Sep 05 16:08:32 IST 2024","","End to End Ecommerce Automation Test","",""

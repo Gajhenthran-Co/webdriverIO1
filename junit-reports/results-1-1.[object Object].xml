@@ -1,100 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites tests="3" failures="0" errors="0" skipped="0">
-  <testsuite name="End to End Ecommerce Automation Test" timestamp="2024-09-04T17:06:01" time="19.039" tests="3" failures="0" errors="0" skipped="0">
+  <testsuite name="End to End Ecommerce Automation Test" timestamp="2024-09-05T16:08:18" time="19.435" tests="3" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="End to End Ecommerce Automation Test"/>
       <property name="capabilities" value="firefox.127_0.windows"/>
-      <property name="file" value="file:///D:/In_House_Wdio_Framework/webdriverio-framework/src/test/specs/E2E.ecommerce.spec%20copy.js"/>
+      <property name="file" value="file:///D:/In_House_Wdio_Framework/webdriverio-framework/src/test/specs/E2E.ecommerce.spec.js"/>
     </properties>
-    <testcase classname="firefox.127_0.windows.End_to_End_Ecommerce_Automation_Test" name="AZ111 Login into Ecommerce website and Add product to cart" time="12.007">
+    <testcase classname="firefox.127_0.windows.End_to_End_Ecommerce_Automation_Test" name="AZ111 Login into Ecommerce website and Add product to cart" time="12.089">
       <system-out><![CDATA[
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window/maximize - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window/maximize - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/2764eb82-e7eb-4d2f-bbce-2141196bdbea/clear - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/a97df6bc-5b33-4601-8f29-8c76d2edcc48/clear - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/2764eb82-e7eb-4d2f-bbce-2141196bdbea/value - {"text":"rahulshettyacademy"}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/a97df6bc-5b33-4601-8f29-8c76d2edcc48/value - {"text":"rahulshettyacademy"}
 RESULT: {"text":"rahulshettyacademy"}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/95bcc47c-2962-4d6d-97ee-001d91e11ce9/clear - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/6a61e3b4-4efe-4433-b807-0ceb9f11ae0f/clear - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/95bcc47c-2962-4d6d-97ee-001d91e11ce9/value - {"text":"learning"}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/6a61e3b4-4efe-4433-b807-0ceb9f11ae0f/value - {"text":"learning"}
 RESULT: {"text":"learning"}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/22934f32-9042-4ed7-add5-004d4094465c/element - {"using":"xpath","value":"./option[. = \"Teacher\"]|./option[normalize-space(text()) = \"Teacher\"]|./optgroup/option[. = \"Teacher\"]|./optgroup/option[normalize-space(text()) = \"Teacher\"]"}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/6670f565-9545-4e1d-bf18-05b74a5e2e0f/element - {"using":"xpath","value":"./option[. = \"Teacher\"]|./option[normalize-space(text()) = \"Teacher\"]|./optgroup/option[. = \"Teacher\"]|./optgroup/option[normalize-space(text()) = \"Teacher\"]"}
 RESULT: {"using":"xpath","value":"./option[. = \"Teacher\"]|./option[normalize-space(text()) = \"Teacher\"]|./optgroup/option[. = \"Teacher\"]|./optgroup/option[normalize-space(text()) = \"Teacher\"]"}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/8b1be4e8-9e4a-4613-9e49-bed6b22ddf3a/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/328e6df1-f08e-46d7-a94b-a89a7061969a/click - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/22934f32-9042-4ed7-add5-004d4094465c/text - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/6670f565-9545-4e1d-bf18-05b74a5e2e0f/text - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/253d92af-5dc6-4eb7-b61e-996880946f4e/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/0976b462-0f94-4c49-96c8-2418f361b8e7/click - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/253d92af-5dc6-4eb7-b61e-996880946f4e/selected - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/0976b462-0f94-4c49-96c8-2418f361b8e7/selected - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/021b26a4-9da2-4bcc-b2f4-5c93b8dc13f0/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/73c5fbe6-3da4-454d-86e3-8ba06bdaf527/click - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/e6ad8e53-8c40-4b5f-ad45-ebd48da54d69/rect - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/ef49c9a7-8c88-41a4-9cea-9adca0831642/rect - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window/rect - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window/rect - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/actions - {"actions":[{"id":"action1","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"e6ad8e53-8c40-4b5f-ad45-ebd48da54d69"}}]}]}
-RESULT: {"actions":[{"id":"action1","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"e6ad8e53-8c40-4b5f-ad45-ebd48da54d69"}}]}]}
-COMMAND: DELETE /session/0be725ee-4fd5-4125-a038-dfddd32ae950/actions - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/actions - {"actions":[{"id":"action1","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"ef49c9a7-8c88-41a4-9cea-9adca0831642"}}]}]}
+RESULT: {"actions":[{"id":"action1","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"ef49c9a7-8c88-41a4-9cea-9adca0831642"}}]}]}
+COMMAND: DELETE /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/actions - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/e6ad8e53-8c40-4b5f-ad45-ebd48da54d69/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/ef49c9a7-8c88-41a4-9cea-9adca0831642/click - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/9c702aaf-e3bd-4460-9fc6-03a1983568c1/rect - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/8a93a025-5635-460f-89dd-9c2f4d2bc18e/rect - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window/rect - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window/rect - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/actions - {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"9c702aaf-e3bd-4460-9fc6-03a1983568c1"}}]}]}
-RESULT: {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"9c702aaf-e3bd-4460-9fc6-03a1983568c1"}}]}]}
-COMMAND: DELETE /session/0be725ee-4fd5-4125-a038-dfddd32ae950/actions - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/actions - {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"8a93a025-5635-460f-89dd-9c2f4d2bc18e"}}]}]}
+RESULT: {"actions":[{"id":"action2","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-72,"y":-169,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"8a93a025-5635-460f-89dd-9c2f4d2bc18e"}}]}]}
+COMMAND: DELETE /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/actions - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/9c702aaf-e3bd-4460-9fc6-03a1983568c1/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/8a93a025-5635-460f-89dd-9c2f4d2bc18e/click - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/9a191f65-19c0-4abc-89f6-815c6b23f695/rect - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/b53bf41c-bd67-4a74-9121-2049ff3f384e/rect - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/window/rect - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/window/rect - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/actions - {"actions":[{"id":"action3","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-116,"y":-788,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"9a191f65-19c0-4abc-89f6-815c6b23f695"}}]}]}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/9a191f65-19c0-4abc-89f6-815c6b23f695/click - {}
-RESULT: {}
-]]></system-out>
-    </testcase>
-    <testcase classname="firefox.127_0.windows.End_to_End_Ecommerce_Automation_Test" name="AZ222 Verify product present in the cart and goto checkout page" time="0.554">
-      <system-out><![CDATA[
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/fa5baeeb-0b7a-475f-8e8e-bb49dfa6c38c/text - {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/791bf490-edc3-4dc2-a0b2-32635963e95b/text - {}
-RESULT: {}
-RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/8a574c2c-ccee-41d8-bec8-ec96596549b0/text - {}
-RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/103ee06c-e6e4-4a3b-a587-36dd6e486b80/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/actions - {"actions":[{"id":"action3","type":"wheel","parameters":{},"actions":[{"type":"scroll","x":-116,"y":-788,"deltaX":0,"deltaY":0,"duration":0,"origin":{"element-6066-11e4-a52e-4f735466cecf":"b53bf41c-bd67-4a74-9121-2049ff3f384e"}}]}]}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/b53bf41c-bd67-4a74-9121-2049ff3f384e/click - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
-    <testcase classname="firefox.127_0.windows.End_to_End_Ecommerce_Automation_Test" name="TR123 Select country and complete purchase" time="6.432">
+    <testcase classname="firefox.127_0.windows.End_to_End_Ecommerce_Automation_Test" name="AZ222 Verify product present in the cart and goto checkout page" time="1.048">
       <system-out><![CDATA[
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/434854e6-7476-422b-a7e1-2420abe8be88/click - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/035a7a91-4cbd-4e8d-ae5a-4c7fd635a236/text - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/6a5d8397-4c28-4f9f-aa7c-cba9d5e47ff9/text - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/434854e6-7476-422b-a7e1-2420abe8be88/clear - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/434854e6-7476-422b-a7e1-2420abe8be88/value - {"text":"ind"}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/ed9a433c-92c2-42c9-b174-f14cc08946fb/text - {}
+RESULT: {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/eebbe171-e0d3-47c8-9371-cd76a3ecc853/click - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="firefox.127_0.windows.End_to_End_Ecommerce_Automation_Test" name="TR123 Select country and complete purchase" time="6.257">
+      <system-out><![CDATA[
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/5321abbe-5385-4ea6-a0f8-c0d83563fd5e/click - {}
+RESULT: {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/5321abbe-5385-4ea6-a0f8-c0d83563fd5e/clear - {}
+RESULT: {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/5321abbe-5385-4ea6-a0f8-c0d83563fd5e/value - {"text":"ind"}
 RESULT: {"text":"ind"}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/8f91793e-a9bc-47a6-bdf0-8cdae3b93d94/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/b47fe531-bbd1-4d03-b454-121fc25fd35c/click - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/5655332d-6e9a-4026-a39b-6fcbdde0d998/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/c2616096-eaed-4e53-89df-f7852c10935a/click - {}
 RESULT: {}
-COMMAND: POST /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/8d8fdacd-4b67-43ef-a4bb-e11ab05185aa/click - {}
+COMMAND: POST /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/87b6df52-b084-44b6-b504-3fdbad5c55f6/click - {}
 RESULT: {}
-COMMAND: GET /session/0be725ee-4fd5-4125-a038-dfddd32ae950/element/4955b193-395a-4777-aae3-1a33feebddae/text - {}
+COMMAND: GET /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f/element/0e1d5369-2cad-4120-bd90-e9ce2d86f0ba/text - {}
 RESULT: {}
-COMMAND: DELETE /session/0be725ee-4fd5-4125-a038-dfddd32ae950 - {}
+COMMAND: DELETE /session/3aaa9c8e-f1b0-4f56-94b9-d64e16665d5f - {}
 RESULT: {}
 ]]></system-out>
     </testcase>
