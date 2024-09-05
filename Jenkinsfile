@@ -34,11 +34,14 @@ pipeline {
             }
         }
 
-        stage('Generate Allure Report') {
+        stage('Generate Allure Result') {
             steps {
-                // Generate Allure results
+                // Generate Allure report
                 bat 'npm run generateAllure'
-            },
+            }
+        }
+
+        stage('Generate Allure Report') {
             steps {
                 // Generate Allure report
                 bat 'npm run openAllure'
