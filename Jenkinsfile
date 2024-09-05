@@ -45,7 +45,7 @@ pipeline {
         stage('Publish Report') {
             steps {
                 // Publish HTML report using HTML Publisher Plugin
-                publishHTML([reportDir: "${REPORT_DIR}", reportFiles: 'index.html', reportName: 'Allure Test Report'])
+                publishHTML([reportDir: "allure-report", reportFiles: 'index.html', reportName: 'Allure Test Report'])
             }
         }
     }
