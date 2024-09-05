@@ -16,7 +16,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from the repository
-                git branch: 'main', url: 'https://github.com/your-repo/wdio-project.git'
+                git branch: 'main', url: 'https://github.com/Gajhenthran/webdriverIO1.git'
             }
         }
 
