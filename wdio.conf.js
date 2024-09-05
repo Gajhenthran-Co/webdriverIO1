@@ -153,20 +153,20 @@ export const config = {
         browserNameAndOpts,
         ffBrowserNameAndOpts
     ],
-    services: [
-        [
-            // AzureDevopsService,
-            // {
-            //     pat: 'u46xjx2ol4px36zg3z565uz52dbvshctlulkhrsecxiamn6nhtwa', // all this, is just an example.
-            //     organizationUrl: 'https://dev.azure.com/gianlucamangiapelo', //Required: true
-            //     projectId: '8b3c68ac-f69d-41c6-bbad-921d8bae9819', //Required: true
-            //     planId: 263072, //Required: true
-            //     suiteId: 263073, //Required: true
-            //     caseIdRegex: '@?[ref](https://github.com/gianlucamangiapelo/wdio-azure-devops-service/blob/main///d+)', //Required: false
-            //     runName: 'FE regression tests for TestPlan', //Required: true
-            // },
-        ],
-    ],
+    // services: [
+    //     [
+    //         AzureDevopsService,
+    //         {
+    //             pat: 'u46xjx2ol4px36zg3z565uz52dbvshctlulkhrsecxiamn6nhtwa', // all this, is just an example.
+    //             organizationUrl: 'https://dev.azure.com/gianlucamangiapelo', //Required: true
+    //             projectId: '8b3c68ac-f69d-41c6-bbad-921d8bae9819', //Required: true
+    //             planId: 263072, //Required: true
+    //             suiteId: 263073, //Required: true
+    //             caseIdRegex: '@?[ref](https://github.com/gianlucamangiapelo/wdio-azure-devops-service/blob/main///d+)', //Required: false
+    //             runName: 'FE regression tests for TestPlan', //Required: true
+    //         },
+    //     ],
+    // ],
 
     //
     // ===================
