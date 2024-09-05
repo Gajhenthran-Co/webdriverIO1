@@ -30,7 +30,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 // Run WebdriverIO tests
-                bat 'npm run wdio'
+                bat 'NODE_ENV=qa npm run wdio'
             }
         }
 
