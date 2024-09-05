@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@dbouckaert/zephyr-scale-reporter": "^1.5.1",
-    "@gmangiapelo/wdio-azure-devops-service": "^0.0.11",
+    "@gmangiapelo/wdio-azure-devops-service": "^0.0.10",
     "date-fns": "^3.6.0",
     "date-fns-tz": "^3.1.3",
     "lodash": "^4.17.21",
