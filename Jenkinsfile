@@ -58,11 +58,11 @@ pipeline {
     }
 
     post {
-        always {
-            // Clean up after the pipeline completes
-            echo 'Cleaning up...'
-            bat 'rmdir /S /Q .\\workspace' // Clean workspace on Windows
-        }
+        // always {
+        //     // Clean up after the pipeline completes
+        //     echo 'Cleaning up...'
+        //     bat 'rmdir /S /Q .\\workspace' // Clean workspace on Windows
+        // }
         success {
             echo 'Pipeline succeeded!'
         }
