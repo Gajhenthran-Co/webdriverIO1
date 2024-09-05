@@ -30,15 +30,15 @@ pipeline {
         stage('Run Tests') {
             steps {
                 // Run WebdriverIO tests
-                bat 'npx wdio run wdio.conf.js'
+                bat 'npm run wdio'
             }
         }
 
         stage('Generate Allure Report') {
             steps {
                 // Generate Allure report
-                bat 'npx allure generate --clean allure-results'
-                bat 'npx allure open allure-report &'
+                bat 'npm run generateAllure'
+                bat 'npm run openAllure'
             }
         }
 
