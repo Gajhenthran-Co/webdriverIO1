@@ -4,7 +4,7 @@ import settings from './utils/browserSettings.js'
 import { format } from 'date-fns'
 import fs from 'fs'
 import path, { dirname } from 'path'
-import AzureDevopsService from "@gmangiapelo/wdio-azure-devops-service/dist/cjs/index.js"
+const AzureDevopsService = require("@gmangiapelo/wdio-azure-devops-service/dist/cjs/index.js")
 import { fileURLToPath } from 'url'
 
 global.content = content
