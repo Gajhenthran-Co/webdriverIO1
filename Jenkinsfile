@@ -4,7 +4,7 @@ pipeline {
     environment {
         // Define environment variables needed for the pipeline
         NODE_VERSION = '20.x' // Change this to the version you need
-        REPORT_DIR = 'allure-report'
+        REPORT_DIR = 'allure-results'
     }
 
     tools {
