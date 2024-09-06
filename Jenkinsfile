@@ -70,6 +70,7 @@ pipeline {
         //     bat 'rmdir /S /Q .\\workspace' // Clean workspace on Windows
         // }
         success {
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
             echo 'Pipeline succeeded!'
         }
         failure {
