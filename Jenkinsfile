@@ -38,7 +38,6 @@ pipeline {
             steps {
                 // Generate Allure report
                 bat 'npm run generateAllure'
-                bat 'tree'
             }
         }
 
@@ -71,14 +70,6 @@ pipeline {
         //     bat 'rmdir /S /Q .\\workspace' // Clean workspace on Windows
         // }
         success {
-            publishHTML([
-                    reportDir: "${REPORT_DIR}",
-                    reportFiles: 'index.html',
-                    reportName: 'Allure Test Report',
-                    keepAll: true,
-                    alwaysLinkToLastBuild: false,
-                    allowMissing: false
-            ])
             echo 'Pipeline succeeded!'
         }
         failure {
