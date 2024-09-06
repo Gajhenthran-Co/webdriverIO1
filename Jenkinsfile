@@ -37,16 +37,17 @@ pipeline {
         stage('Generate Allure Result') {
             steps {
                 // Generate Allure report
+                bat 'dir'
                 bat 'npm run generateAllure'
             }
         }
 
-        stage('Generate Allure Report') {
-            steps {
-                // Generate Allure report
-                bat 'npm run openAllure'
-            }
-        }
+        // stage('Generate Allure Report') {
+        //     steps {
+        //         // Generate Allure report
+        //         bat 'npm run openAllure'
+        //     }
+        // }
 
         stage('Publish Report') {
             steps {
