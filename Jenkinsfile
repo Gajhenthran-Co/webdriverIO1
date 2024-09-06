@@ -38,6 +38,7 @@ pipeline {
             steps {
                 // Generate Allure report
                 bat 'npm run generateAllure'
+                bat 'tree'
             }
         }
 
