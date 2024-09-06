@@ -41,12 +41,12 @@ pipeline {
             }
         }
 
-        stage('Generate Allure Report') {
-            steps {
-                // Generate Allure report
-                bat 'npm run openAllure'
-            }
-        }
+        // stage('Generate Allure Report') {
+        //     steps {
+        //         // Generate Allure report
+        //         bat 'npm run openAllure'
+        //     }
+        // }
 
         stage('Publish Report') {
             steps {
