@@ -14,7 +14,7 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "wdio:suite:option1": "wdio run ./wdio.conf.js --suite option1",
+    "suite:option1": "wdio run ./wdio.conf.js --suite option1",
     "generateAllure": "npx allure generate allure-results --clean",
     "openAllure": "npx allure open"
   },

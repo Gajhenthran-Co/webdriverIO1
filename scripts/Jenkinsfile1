@@ -1,0 +1,54 @@
+pipeline {
+    agent any
+
+    environment {
+        // Define environment variables needed for the pipeline
+        NODE_VERSION = '20.x' // Change this to the version you need
+        REPORT_DIR = 'allure-report'
+    }
+
+    tools {
+        // Install Node.js
+        nodejs "${NODE_VERSION}"
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                // Checkout the code from the repository
+                git branch: 'main', url: 'https://github.com/Gajhenthran/webdriverIO1.git'
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                // Install all dependencies using npm
+                bat 'npm install'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                // Run WebdriverIO tests
+                bat 'NODE_ENV=qa npm run suite:option1'
+            }
+        }
+
+        stage('Generate Allure Result') {
+            steps {
+                // Generate Allure report
+                bat 'npm run generateAllure'
+            }
+        }
+    }
+
+    post {
+        success {
+            allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+            echo 'Pipeline succeeded!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
