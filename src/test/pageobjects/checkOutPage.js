@@ -1,4 +1,4 @@
-import Reusables from '@pageobjects/reusables.js'
+import ReusablesComponents from '@pageobjects/reusables.js'
 
 class CheckOutPage {
     get chechOutPage() { return $('//app-checkout') }
@@ -11,25 +11,25 @@ class CheckOutPage {
     get termsAndConditionCheckbox() { return $('//label[@for="checkbox2"]') }
 
     async selectCountry(partialName) {
-        await Reusables.waitAndClick(this.countryInput)
+        await ReusablesComponents.waitAndClick(this.countryInput)
         await this.countryInput.setValue(partialName)
         await this.dropdownLoading.waitForDisplayed()
         await this.dropdownLoading.waitForDisplayed({ reverse: true })
         await this.countryDropdown.waitForDisplayed()
-        await Reusables.waitAndClick(this.countryName)
+        await ReusablesComponents.waitAndClick(this.countryName)
         await this.countryDropdown.waitForDisplayed({ reverse: true })
     }
 
     async clickPurchaseButton() {
-        await Reusables.waitAndClick(this.purchaseButton)
+        await ReusablesComponents.waitAndClick(this.purchaseButton)
     }
 
     async clickTermsAndCondition() {
-        await Reusables.waitAndClick(this.termsAndConditionCheckbox)
+        await ReusablesComponents.waitAndClick(this.termsAndConditionCheckbox)
     }
 
     async verifySuccessMessage(message) {
-        const text = await Reusables.waitAndGetText(this.successMessage)
+        const text = await ReusablesComponents.waitAndGetText(this.successMessage)
         await expect(text).toContain(message)
     }
 }

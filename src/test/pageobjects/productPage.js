@@ -1,4 +1,4 @@
-import Reusables from '@pageobjects/reusables.js'
+import ReusablesComponents from '@pageobjects/reusables.js'
 import ViewCartPage from '@pageobjects/viewCartPage.js'
 
 class ProductPage {
@@ -7,11 +7,11 @@ class ProductPage {
     getAddToCartBtn(productName) { return `//h4[@class="card-title"]//a[text()="${productName}"]/ancestor::div[@class="card h-100"]//button[text()="Add "]` }
 
     async addToCart(productName) {
-        await Reusables.waitScrollAndClick($(this.getAddToCartBtn(productName)))
+        await ReusablesComponents.waitScrollAndClick($(this.getAddToCartBtn(productName)))
     }
 
     async clickCheckoutButton(checkOutNumber) {
-        await Reusables.waitScrollAndClick($(this.getCheckOutBtn(checkOutNumber)))
+        await ReusablesComponents.waitScrollAndClick($(this.getCheckOutBtn(checkOutNumber)))
     }
 
     async addProductToCardAndCheckout(products) {

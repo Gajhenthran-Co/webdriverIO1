@@ -1,6 +1,6 @@
 
 
-class Reusables {
+class ReusablesComponents {
 
     async waitAndClick(selector) {
         await selector.waitForDisplayed()
@@ -24,4 +24,4 @@ class Reusables {
     }
 }
 
-export default new Reusables()
+export default new ReusablesComponents()

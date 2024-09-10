@@ -1,5 +1,5 @@
 import Page from '@pageobjects/page.js'
-import Reusables from '@pageobjects/reusables.js'
+import ReusablesComponents from '@pageobjects/reusables.js'
 import ProductPage from '@pageobjects/productPage.js'
 
 /**
@@ -13,20 +13,20 @@ class LoginPage extends Page {
     get signInBtn() { return $('//input[@id="signInBtn"]') }
 
     async enterUsername(value) {
-        await Reusables.waitAndSetValue(this.usernameInput, value)
+        await ReusablesComponents.waitAndSetValue(this.usernameInput, value)
     }
 
     async enterPassword(value) {
-        await Reusables.waitAndSetValue(this.passwordInput, value)
+        await ReusablesComponents.waitAndSetValue(this.passwordInput, value)
     }
 
     async selectTermsCheckbox() {
-        await Reusables.waitAndClick(this.termsConditionCheckbox)
+        await ReusablesComponents.waitAndClick(this.termsConditionCheckbox)
         await expect(this.termsConditionCheckbox).toBeSelected()
     }
 
     async clickSignInBtn() {
-        await Reusables.waitAndClick(this.signInBtn)
+        await ReusablesComponents.waitAndClick(this.signInBtn)
     }
 
     async selectUserType(text) {

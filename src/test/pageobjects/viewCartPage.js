@@ -1,4 +1,4 @@
-import Reusables from '@pageobjects/reusables.js'
+import ReusablesComponents from '@pageobjects/reusables.js'
 import CheckOutPage from '@pageobjects/checkOutPage.js'
 
 const products = global.content.products
@@ -13,14 +13,14 @@ class ViewCartPage {
 
     async verifyProductsPresentInCart(productNames) {
         for (let i = 0; i < this.productsInCart.length; i++) {
-            const name = await Reusables.waitAndGetText(this.productsInCart[i])
+            const name = await ReusablesComponents.waitAndGetText(this.productsInCart[i])
             await expect(productNames.includes(name)).toBe(true)
         }
     }
 
     async verifyProductQuantity(productNames) {
         for (let i = 0; i < productNames; i++) {
-            const quantity = await Reusables.waitAndGetText($(this.getProductQuantity(productNames[i])))
+            const quantity = await ReusablesComponents.waitAndGetText($(this.getProductQuantity(productNames[i])))
             const expectedQuantity = products.find(x => x.name === `${productNames[i]}`)?.quantity
             await expect(quantity).toBe(expectedQuantity)
         }
@@ -40,7 +40,7 @@ class ViewCartPage {
     }
 
     async clickProceedToCheckoutBtn() {
-        await Reusables.waitAndClick(this.proceedToCheckoutBtn)
+        await ReusablesComponents.waitAndClick(this.proceedToCheckoutBtn)
         await CheckOutPage.chechOutPage.waitForDisplayed()
     }
 }
